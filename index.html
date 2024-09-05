@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftShares - Integração de Colaboradores</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para ícones de redes sociais -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Animate.css para animações -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Google Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar com o Logo e Links -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand mx-auto" href="#">
+            <img src="./imagens/logotipo-softinsa.png" alt="Logo Softinsa" height="50">
+        </a>
+    </nav>
+
+    <!-- Slider Automático de Imagens com Efeito Suave -->
+    <div class="container mt-5" id="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide mx-auto shadow-lg rounded" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagens/image1.png" class="d-block w-100 carousel-image" alt="Imagem 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/interior.png" class="d-block w-100 carousel-image" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/image.png" class="d-block w-100 carousel-image" alt="Imagem 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <!-- Seção de Boas-Vindas -->
+    <section class="welcome-section py-5 text-center">
+        <div class="container">
+            <h1 class="welcome-title animate__animated animate__fadeInUp">Bem-vindo à SoftShares</h1>
+            <p class="lead mb-4 welcome-text animate__animated animate__fadeInLeft">Entendemos a importância de acolher bem os nossos colaboradores, especialmente aqueles que se mudam para novas cidades. Facilitamos a sua integração com informações essenciais sobre as cidades onde estamos presentes.</p>
+            <div class="d-flex justify-content-center mb-4">
+                <a href="https://pintfinal-frontend.onrender.com/login" class="btn btn-outline-primary mx-2">Web para Administradores</a>
+                <a href="#mobile-app" class="btn btn-outline-secondary mx-2">Aplicação Mobile</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Informações sobre a Cidade -->
+    <section class="city-info-section py-5 bg-light text-center">
+        <div class="container">
+            <h2 class="mb-4">Conheça o Melhor de Cada Cidade</h2>
+            <p class="lead">A nossa aplicação oferece recomendações locais, incluindo restaurantes, habitação, desporto, comércio e lazer. Adaptar-se a uma nova cidade nunca foi tão fácil!</p>
+        </div>
+    </section>
+
+
+    <!-- Cards de Integração -->
+    <section class="integration-section py-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm border-0 rounded-lg">
+                        <div class="card-body">
+                            <i class="fas fa-laptop-code fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">Portal Web para Administradores</h5>
+                            <p class="card-text">Atualize conteúdos e mantenha a plataforma sempre relevante para todos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm border-0 rounded-lg">
+                        <div class="card-body">
+                            <i class="fas fa-mobile-alt fa-3x mb-3 text-info"></i>
+                            <h5 class="card-title">Aplicação Mobile</h5>
+                            <p class="card-text">Tenha informações atualizadas sobre a cidade na palma da sua mão.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm border-0 rounded-lg">
+                        <div class="card-body">
+                            <i class="fas fa-users fa-3x mb-3 text-success"></i>
+                            <h5 class="card-title">Colaboradores Conectados</h5>
+                            <p class="card-text">Compartilhe e acesse avaliações e recomendações feitas por outros colaboradores.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+   <!-- Seção Final de Chamada para Ação -->
+   <section id="cta-section" class="cta-section py-5 text-white text-center" style="background-color: #333;">
+    <div class="container">
+        <h2>Pronto para Começar?</h2>
+        <p class="lead">Descarrega o nosso aplicativo agora e descobre tudo o que a tua nova cidade tem para oferecer!</p>
+        <a href="#" class="btn btn-light btn-lg mt-4">Baixar Aplicação Mobile</a>
+    </div>
+</section>
+
+
+
+<section class="text-section py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Bloco 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="p-4 shadow-sm rounded-lg bg-white h-100">
+                    <h4 class="font-weight-bold">A Nossa Missão</h4>
+                    <p>Fornecer o apoio e os recursos necessários para facilitar a adaptação dos nossos colaboradores a novas cidades, garantindo uma integração harmoniosa e eficiente.</p>
+                </div>
+            </div>
+            <!-- Bloco 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="p-4 shadow-sm rounded-lg bg-white h-100">
+                    <h4 class="font-weight-bold">Visão de Futuro</h4>
+                    <p>Expandir os nossos serviços de integração para cobrir mais cidades e proporcionar uma experiência cada vez mais personalizada e eficaz para os nossos colaboradores.</p>
+                </div>
+            </div>
+            <!-- Bloco 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="p-4 shadow-sm rounded-lg bg-white h-100">
+                    <h4 class="font-weight-bold">Os Nossos Valores</h4>
+                    <p>Compromisso com a excelência, cuidado com o bem-estar dos colaboradores e dedicação para criar um ambiente acolhedor e inclusivo em todas as localidades.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção com Imagem e Texto Lado a Lado -->
+<section class="image-text-section py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4">
+                <img src="./imagens/ultima.png" class="img-fluid rounded-lg shadow-sm" alt="Cidade">
+            </div>
+            <div class="col-md-6">
+                <h3 class="font-weight-bold">Descubra a Sua Nova Cidade</h3>
+                <p>Com a nossa aplicação, pode explorar os melhores pontos da cidade, descobrir restaurantes, lazer, habitação, e muito mais. Facilitamos a sua adaptação ao novo ambiente de forma simples e intuitiva.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer com Redes Sociais -->
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>Siga-nos nas redes sociais para novidades!</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/softinsa/" class="text-white mx-3"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.facebook.com/Softinsa/?locale=pt_PT" class="text-white mx-3"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <a href="https://pt.linkedin.com/company/softinsa" class="text-white mx-3"><i class="fab fa-linkedin-in fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts Bootstrap e jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
